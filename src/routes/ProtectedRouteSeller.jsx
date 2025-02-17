@@ -7,7 +7,7 @@ export const ProtectedRouteMentor = () => {
     // console.log("isuserAuth=====", isUserAuth);
     // // loading
 
-    // const isMentorAUth = true;
+    // const isSellerAUth = true;
 
     const navigate = useNavigate();
 

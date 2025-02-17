@@ -7,6 +7,9 @@ import { Login } from "../pages/shared/Login";
 import { About } from "../pages/user/About";
 import { Contact } from "../pages/user/Contact";
 import { Product } from "../pages/user/Product";
+import { Profile } from "../pages/user/Profile";
+import { Cart } from "../pages/user/Cart";
+import { Order } from "../pages/user/Order";
 import { ProductDetails } from "../pages/user/ProductDetails";
 import { ErrorPage } from "../pages/shared/ErrorPage";
 import { ProtectedRoute } from "./ProtectedRoute";
@@ -55,7 +58,7 @@ export const router = createBrowserRouter([
                 children: [
                     {
                         path: "whishlist",
-                        element: <Wishlist/>,
+                        element: <h1>Wishlist</h1>,
                     },
                     {
                         path: "profile",
